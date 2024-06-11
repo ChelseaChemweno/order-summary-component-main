@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 20px solid red;
+}
+p {
+display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.illustration {
+  width: 100%;
+  height: 100%;
+}
+#icon-music {
+  width: 10%;
+  height: 15%;
+  margin-right: 10px;
+  margin-left: 0;
+}
+.Payment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+.proceedpay {
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: hsl(245, 75%, 52%);
+}
+.cancelorder {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
